@@ -1,5 +1,5 @@
 ### 🍊leetcode
-leetcode practices
+leetcode problems
 
 > 用 JavaScript 刷 LeetCode 不丢人 😂
 
