@@ -1,7 +1,7 @@
 ### 🍊leetcode
 leetcode problems
 
-> 用 JavaScript 刷 LeetCode 不丢人 😂
+> 用 JavaScript 刷 LeetCode 不丢人
 
 
   &emsp;&emsp;本开源项目的目的：
