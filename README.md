@@ -26,7 +26,6 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 | [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
 | [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
 
-***
 
 ## 📖 Learning Materials
 
@@ -62,5 +61,3 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
   - [前端工程师的 LeetCode 之旅 - 夜喵专场（24）](https://mp.weixin.qq.com/s/e4R0tyOY9UB_TiiNWqi8AA)
   - [前端工程师的 LeetCode 之旅 - 周赛 185](https://mp.weixin.qq.com/s/-iuN5ln6KTfEGt6Ewihdrg)
   - [前端工程师的 LeetCode 之旅 - 周赛 200](https://mp.weixin.qq.com/s/YAX98q0iNqceHRnI2AYR-g)
-
-***
