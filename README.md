@@ -1,7 +1,7 @@
 ## 🍊LeetCode
-leetcode problems
+A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
-> 用 JavaScript 刷 LeetCode 不丢人！
+> 我的LeetCode刷题记录, 用 JavaScript 刷 LeetCode 不丢人！:)
 
 <h4 id="1">Binary Search Algorithm（二分搜索算法）</h4>
 
