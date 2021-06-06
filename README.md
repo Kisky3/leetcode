@@ -72,5 +72,5 @@ leetcode problems
 
 | 题目 | 难度 | 解法 |
 | :----- | :---: | :---: |
-| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*BinarySearch: easy_852_solution*](Binary-Search/easy_852_solution.js) |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*BinarySearch: easy_744_solution*](Binary-Search/easy_744_solution.js)|
+| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
