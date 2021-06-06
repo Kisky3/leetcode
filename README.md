@@ -1,4 +1,4 @@
-### 🍊leetcode
+## 🍊LeetCode
 leetcode problems
 
 > 用 JavaScript 刷 LeetCode 不丢人
@@ -16,9 +16,11 @@ leetcode problems
 
 > Hard 类型的题目相对难度比较大，一开始接触这类题目可能会把你心态刷炸，所以等基本功稳健之后，再选择通过这类题目来进阶提升。
 
-### 📖 
+***
 
-##### Learning Materials
+## 📖 Learning Materials
+
+##### Algorithm Materials
 
   - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Easy 篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
   - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Medium 篇（上）](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
@@ -51,7 +53,9 @@ leetcode problems
   - [前端工程师的 LeetCode 之旅 - 周赛 185](https://mp.weixin.qq.com/s/-iuN5ln6KTfEGt6Ewihdrg)
   - [前端工程师的 LeetCode 之旅 - 周赛 200](https://mp.weixin.qq.com/s/YAX98q0iNqceHRnI2AYR-g)
 
-### 🧭 Catalog
+***
+
+## 🧭 Catalog
 
   - [Binary Search Algorithm（二分搜索算法）](#1)
   - [Two Points （双指针）](#2)
@@ -67,7 +71,9 @@ leetcode problems
   - [Graph Theory（图论）](#12)
   - [历届周赛](#13)
 
-### 🌸 My Practice
+***
+
+## 🌸 My Practice
 
 <h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
 
