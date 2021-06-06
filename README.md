@@ -3,6 +3,13 @@ leetcode problems
 
 > 用 JavaScript 刷 LeetCode 不丢人！
 
+<h4 id="1">Binary Search Algorithm（二分搜索算法）</h4>
+
+| 题目 | 难度 | 解法 |
+| :----- | :---: | :---: |
+| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
+
 ***
 
 ## 📖 Learning Materials
@@ -57,14 +64,4 @@ leetcode problems
   - [Array（数组）](#11)
   - [Graph Theory（图论）](#12)
   - [历届周赛](#13)
-
 ***
-
-## 🌸 My Practice
-
-<h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
-
-| 题目 | 难度 | 解法 |
-| :----- | :---: | :---: |
-| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
