@@ -16,9 +16,9 @@ leetcode problems
 
 > Hard 类型的题目相对难度比较大，一开始接触这类题目可能会把你心态刷炸，所以等基本功稳健之后，再选择通过这类题目来进阶提升。
 
-### 📖 文章汇总
+### 📖 
 
-##### 专题总结
+##### Learning Materials
 
   - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Easy 篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
   - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Medium 篇（上）](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
@@ -32,7 +32,7 @@ leetcode problems
   - [前端工程师的 LeetCode 之旅 -- 二叉树 Medium 篇（根据遍历序列构造二叉树）](https://mp.weixin.qq.com/s/g46dFFNOyEh9W4dY61NV7g)
   - [前端工程师的 LeetCode 之旅 -- 链表 Easy 篇](https://mp.weixin.qq.com/s/_L_zU73IOFy_rAU-QQz_Dgg)
 
-##### 竞赛总结
+##### Competition Materials
 
   - [前端工程师的 LeetCode 之旅 - 夜喵专场（20）](https://mp.weixin.qq.com/s/dvSA3yruUQzmLchYyzDKdw)
   - [前端工程师的 LeetCode 之旅 - 周赛 173](https://mp.weixin.qq.com/s/kNd2nQAH9QG1POhlvNNZ4g)
@@ -51,7 +51,7 @@ leetcode problems
   - [前端工程师的 LeetCode 之旅 - 周赛 185](https://mp.weixin.qq.com/s/-iuN5ln6KTfEGt6Ewihdrg)
   - [前端工程师的 LeetCode 之旅 - 周赛 200](https://mp.weixin.qq.com/s/YAX98q0iNqceHRnI2AYR-g)
 
-### 🧭目录导航
+### 🧭 Catalog
 
   - [Binary Search Algorithm（二分搜索算法）](#1)
   - [Two Points （双指针）](#2)
@@ -67,6 +67,7 @@ leetcode problems
   - [Graph Theory（图论）](#12)
   - [历届周赛](#13)
 
+### 🌸 My Practice
 
 <h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
 
