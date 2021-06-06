@@ -18,7 +18,6 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
   - [Array（数组）](#11)
   - [Graph Theory（图论）](#12)
   - [历届周赛](#13) -->
-***
 
 <h4 id="1">Binary Search Algorithm（二分搜索算法）</h4>
 
