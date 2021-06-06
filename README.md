@@ -70,7 +70,7 @@ leetcode problems
 
 <h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
 
-| 题目 | 难度 | 解法 | beats Runtime |
+| 题目 | 难度 | 解法 |
 | :----- | :---: | :---: | :---: |
-| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*BinarySearch: easy_852_solution*](https://github.com/Kisky3/leetcode/blob/main/Binary-Search/easy_852_solution.js) | **98.70%** |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*BinarySearch: easy_744_solution*](/Binary-
+| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*BinarySearch: easy_852_solution*](Binary-Search/easy_852_solution.js) |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*BinarySearch: easy_744_solution*](Binary-Search/easy_744_solution.js)|
