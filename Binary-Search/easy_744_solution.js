@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/peak-index-in-a-mountain-array/
+ * https://leetcode.com/problems/find-smallest-letter-greater-than-target/
  *
  * 744. Find Smallest Letter Greater Than Target
  *
