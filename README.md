@@ -1,9 +1,31 @@
 ## 🍊LeetCode
-leetcode problems
+A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
-> 用 JavaScript 刷 LeetCode 不丢人！
+> 我的LeetCode刷题记录, 用 JavaScript 刷 LeetCode 不丢人！:)
 
-***
+## 🧭 Catalog
+
+  - [Binary Search Algorithm（二分搜索算法）](#1)
+<!--   - [Two Points （双指针）](#2)
+  - [Binary Tree（二叉树）](#3)
+  - [Recursion（递归）](#4)
+  - [Greedy Algorithm（贪心算法）](#5)
+  - [String （字符串）](#6)
+  - [Linked List（链表）](#7)
+  - [Stack（栈）](#8)
+  - [Heap（堆）](#9)
+  - [Dynamic Programming（动态规划）](#10)
+  - [Array（数组）](#11)
+  - [Graph Theory（图论）](#12)
+  - [历届周赛](#13) -->
+
+<h4 id="1">Binary Search Algorithm（二分搜索算法）</h4>
+
+| 题目 | 难度 | 解法 |
+| :----- | :---: | :---: |
+| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
+
 
 ## 📖 Learning Materials
 
@@ -39,32 +61,3 @@ leetcode problems
   - [前端工程师的 LeetCode 之旅 - 夜喵专场（24）](https://mp.weixin.qq.com/s/e4R0tyOY9UB_TiiNWqi8AA)
   - [前端工程师的 LeetCode 之旅 - 周赛 185](https://mp.weixin.qq.com/s/-iuN5ln6KTfEGt6Ewihdrg)
   - [前端工程师的 LeetCode 之旅 - 周赛 200](https://mp.weixin.qq.com/s/YAX98q0iNqceHRnI2AYR-g)
-
-***
-
-## 🧭 Catalog
-
-  - [Binary Search Algorithm（二分搜索算法）](#1)
-  - [Two Points （双指针）](#2)
-  - [Binary Tree（二叉树）](#3)
-  - [Recursion（递归）](#4)
-  - [Greedy Algorithm（贪心算法）](#5)
-  - [String （字符串）](#6)
-  - [Linked List（链表）](#7)
-  - [Stack（栈）](#8)
-  - [Heap（堆）](#9)
-  - [Dynamic Programming（动态规划）](#10)
-  - [Array（数组）](#11)
-  - [Graph Theory（图论）](#12)
-  - [历届周赛](#13)
-
-***
-
-## 🌸 My Practice
-
-<h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
-
-| 题目 | 难度 | 解法 |
-| :----- | :---: | :---: |
-| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
