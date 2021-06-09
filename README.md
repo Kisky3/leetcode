@@ -5,7 +5,7 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
 ## 🧭 Catalog
 
-  - [Binary Search Algorithm（二分搜索算法）](#1)
+  - [Binary Search Algorithm](#1)
 <!--   - [Two Points （双指针）](#2)
   - [Binary Tree（二叉树）](#3)
   - [Recursion（递归）](#4)
@@ -23,18 +23,18 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
 | 题目 | 难度 | 解法 |
 | :----- | :---: | :---: |
-| [852. 山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
-| [367. 有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) | Easy | [*367_solution*](Binary-Search/easy_367_solution.js)|
+| [852. peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
+| [744. find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
+| [367. valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [*367_solution*](Binary-Search/easy_367_solution.js)|
 
 
 ## 📖 Learning Materials
 
 ##### Algorithm Materials
 
-  - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Easy 篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
-  - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Medium 篇（上）](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
-  - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Medium 篇（下）](https://mp.weixin.qq.com/s/wiqrNBNp22RUqM1mmSXBkQ)
+  - [Binary Search Algorithm Easy](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
+  - [Binary Search Algorithm Medium（1）](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
+  - [Binary Search Algorithm Medium（2）](https://mp.weixin.qq.com/s/wiqrNBNp22RUqM1mmSXBkQ)
   - [前端工程师的 LeetCode 之旅 -- 双指针技巧 Easy 篇](https://mp.weixin.qq.com/s/SXj8tkGj19gZy3EgTPIy2Q)
   - [前端工程师的 LeetCode 之旅 -- 双指针技巧 Medium 篇（滑动窗口算法）](https://mp.weixin.qq.com/s/5qHKabjsb0FKvfp2y7CgTg)
   - [前端工程师的 LeetCode 之旅 -- 双指针技巧 Medium 篇（K-Sum）](https://mp.weixin.qq.com/s/gQTiS5NX2WbV1lon7icOqg)
