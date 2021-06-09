@@ -26,7 +26,7 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 | [367. valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [*367_solution*](Binary-Search/easy_367_solution.js)|
 
 
-## 📖 Learning Materials
+## 📖 Learning Materials (Chinese)
 
 ##### Algorithm
 
