@@ -1,8 +1,6 @@
 ## 🍊LeetCode
 A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
-> 我的LeetCode刷题记录, 用 JavaScript 刷 LeetCode 不丢人！:)
-
 ## 🧭 Catalog
 
   - [Binary Search Algorithm](#1)
@@ -19,7 +17,7 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
   - [Graph Theory（图论）](#12)
   - [历届周赛](#13) -->
 
-<h4 id="1">Binary Search Algorithm（二分搜索算法）</h4>
+<h4 id="1">Binary Search Algorithm</h4>
 
 | 题目 | 难度 | 解法 |
 | :----- | :---: | :---: |
