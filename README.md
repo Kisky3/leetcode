@@ -24,6 +24,8 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 | [852. peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*852_solution*](Binary-Search/easy_852_solution.js) |
 | [744. find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*744_solution*](Binary-Search/easy_744_solution.js)|
 | [367. valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [*367_solution*](Binary-Search/easy_367_solution.js)|
+| [441. arranging-coins](https://leetcode.com/problems/arranging-coins/) | Easy | [*441_solution*](Binary-Search/easy_441_solution.js)|
+| [475. heaters](https://leetcode.com/problems/heaters/) | Easy | [*475_solution*](Binary-Search/easy_475_solution.js)|
 
 
 ## 📖 Learning Materials (Chinese)
