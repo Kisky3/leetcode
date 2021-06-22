@@ -9,3 +9,11 @@
  * Memory Usage: 40.3 MB, less than 11.32% of JavaScript online submissions for Sqrt(x).
  */
 
+/**
+ * @param {number[][]} matrix
+ * @param {number} k
+ * @return {number}
+ */
+var kthSmallest = function(matrix, k) {
+    
+};
