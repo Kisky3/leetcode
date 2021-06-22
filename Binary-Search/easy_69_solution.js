@@ -14,20 +14,19 @@
  * @return {number}
  */
 const mySqrt = x => {
-  let start = 1
-  let end = x
-
+  let start = 1;
+  let end = x;
   while (start < end) {
-    // 取得任意间断数列的中位数
-    const mid = Math.floor(start + (end - start) / 2)
-    const middle = mid * mid
-    if (x > middle) {
-      start = mid + 1
+    let mid = Math.floor(start + (end - start)/2);
+    let middle = mid * mid;
+    if (middle < x) {
+      start = mid + 1;
     } else {
-      end = mid
+      end = mid;
     }
   }
-  if (start ** 2 === x) {
+
+  if(start * start === x) {
     return start
   }
   return start - 1
