@@ -14,5 +14,19 @@
  * @return {number}
  */
 var mySqrt = function(x) {
-    
+    return binarySearch(x);
 };
+
+function binarySearch(number) {
+  let mid = Math.round((1 + number) /2);
+  while(mid * mid > number) {
+    if ((mid - 1)*(mid - 1) < number) {
+      return mid - 1
+    }
+    if((mid - 1)*(mid - 1) === number) {
+      return mid - 1
+    }
+    mid = Math.round((1 + mid) /2);
+  }
+  return mid
+}
