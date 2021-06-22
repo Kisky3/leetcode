@@ -15,5 +15,23 @@
  * @return {number}
  */
 var kthSmallest = function(matrix, k) {
-    
+  return binarySearch(matrix, k);
 };
+
+function binarySearch(matrix, k) {
+  let arrayList = [];
+  // 将所有的数字拆开放入数组
+  matrix.forEach(array => {
+    array.forEach(num => {
+      arrayList.push(num);
+    })
+  });
+
+  // 对数组进行冒泡排序
+  arrayList = arrayList.sort((a, b) => {
+    return a - b
+  });
+
+  return arrayList[k - 1];
+}
+
