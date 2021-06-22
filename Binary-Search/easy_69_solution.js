@@ -5,28 +5,29 @@
  *
  * Easy
  *
- * Runtime: 144 ms, faster than 5.03% of JavaScript online submissions for Peak Index in a Mountain Array.
- * Memory Usage: 39 MB, less than 93.74% of JavaScript online submissions for Peak Index in a Mountain Array.
+ * Runtime: 84 ms, faster than 97.99% of JavaScript online submissions for Sqrt(x).
+ * Memory Usage: 40.3 MB, less than 11.32% of JavaScript online submissions for Sqrt(x).
  */
 
  /**
  * @param {number} x
  * @return {number}
  */
-var mySqrt = function(x) {
-    return binarySearch(x);
-};
+const mySqrt = x => {
+  let start = 1
+  let end = x
 
-function binarySearch(number) {
-  let mid = Math.round((1 + number) /2);
-  while(mid * mid > number) {
-    if ((mid - 1)*(mid - 1) < number) {
-      return mid - 1
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    const middle = mid * mid
+    if (x > middle) {
+      start = mid + 1
+    } else {
+      end = mid
     }
-    if((mid - 1)*(mid - 1) === number) {
-      return mid - 1
-    }
-    mid = Math.round((1 + mid) /2);
   }
-  return mid
+  if (start ** 2 === x) {
+    return start
+  }
+  return start - 1
 }
