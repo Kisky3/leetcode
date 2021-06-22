@@ -26,6 +26,7 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 | [367. valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [*367_solution*](Binary-Search/easy_367_solution.js)|
 | [441. arranging-coins](https://leetcode.com/problems/arranging-coins/) | Easy | [*441_solution*](Binary-Search/easy_441_solution.js)|
 | [475. heaters](https://leetcode.com/problems/heaters/) | Easy | [*475_solution*](Binary-Search/easy_475_solution.js)|
+| [69. sqrtx](https://leetcode.com/problems/sqrtx/) | Easy | [*475_solution*](Binary-Search/easy_69_solution.js)|
 
 
 ## 📖 Learning Materials (Chinese)
