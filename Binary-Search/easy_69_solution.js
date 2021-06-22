@@ -18,6 +18,7 @@ const mySqrt = x => {
   let end = x
 
   while (start < end) {
+    // 取得任意间断数列的中位数
     const mid = Math.floor(start + (end - start) / 2)
     const middle = mid * mid
     if (x > middle) {
