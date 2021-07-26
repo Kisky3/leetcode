@@ -1,5 +1,5 @@
 ## 🍊LeetCode
-A Record of my LeetCode practice. It's ok to use javascript to solve them :) .
+A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
 ## 🧭 Catalog
 
