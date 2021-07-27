@@ -27,7 +27,8 @@ A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 | [441. arranging-coins](https://leetcode.com/problems/arranging-coins/) | Easy | [*441_solution*](Binary-Search/easy_441_solution.js)|
 | [475. heaters](https://leetcode.com/problems/heaters/) | Easy | [*475_solution*](Binary-Search/easy_475_solution.js)|
 | [69. sqrtx](https://leetcode.com/problems/sqrtx/) | Easy | [*69_solution*](Binary-Search/easy_69_solution.js)|
-| [738. kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Easy | [*738_solution*](Binary-Search/easy_738_solution.js)|
+| [378. kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [*378_solution*](Binary-Search/easy_378_solution.js)|
+| [875. koko-eating-bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [*875_solution*](Binary-Search/medium_875_solution.js)|
 
 
 ## 📖 Learning Materials (Chinese)
