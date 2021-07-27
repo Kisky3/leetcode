@@ -20,7 +20,7 @@ const minEatingSpeed = function(piles, h) {
     while(start < end) {
       const mid = Math.floor(start + (end - start)/2);
       let hour = computeHour(piles, mid)
-      if (hour > H) {
+      if (hour > h) {
         start = mid + 1
       } else {
         end = mid
