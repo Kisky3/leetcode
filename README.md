@@ -1,7 +1,7 @@
-## 🍊LeetCode
+## LeetCode
 A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
-## 🧭 Catalog
+## Catalog
 
   - [Binary Search Algorithm](#1)
 <!--   - [Two Points （双指针）](#2)
