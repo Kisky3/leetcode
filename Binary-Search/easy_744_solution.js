@@ -35,3 +35,12 @@ function binarySearch(array, first, last, target) {
   return last
 }
 
+
+var nextGreatestLetter = function(letters, target) {
+    let B = letters.filter(num => num > target);
+    if (B.length === 0) return letters[0];
+
+    B = B.sort((a, b) => { return a - b});
+    
+    return B[0];
+};
