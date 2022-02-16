@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Str</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const nums = [1,2,3,4];
+
+    console.log("======result===========");
+    console.log(runningSum(nums));
+    console.log("=======================");
+
+function runningSum (nums) {
+    let newNums = [];
+    nums.forEach((num, index)=>{
+        if(index === 0) {
+            newNums.push(num);
+            return
+        }
+        newNums.push(num);
+        let sum = newNums.reduce((pre,cur)=> pre + cur);
+        newNums[index] = sum;
+    })
+    return newNums
+};
+</script>
+</html>
