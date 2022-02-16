@@ -18,16 +18,18 @@
 
 function runningSum (nums) {
     let newNums = [];
+    let result = [];
     nums.forEach((num, index)=>{
         if(index === 0) {
             newNums.push(num);
+            result.push(num);
             return
         }
-        newNums.push(num);
-        let sum = newNums.reduce((pre,cur)=> pre + cur);
-        newNums[index] = sum;
+        newNums[index] = num;
+        let sum = eval(newNums.join("+"));
+        result[index] = sum;
     })
-    return newNums
+    return result
 };
 </script>
 </html>
