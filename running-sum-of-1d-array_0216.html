@@ -17,19 +17,33 @@
     console.log("=======================");
 
 function runningSum (nums) {
-    let newNums = [];
     let result = [];
-    nums.forEach((num, index)=>{
-        if(index === 0) {
-            newNums.push(num);
-            result.push(num);
-            return
-        }
-        newNums[index] = num;
-        let sum = eval(newNums.join("+"));
-        result[index] = sum;
+    let currentSum = 0;
+    
+    nums.forEach((num) => {
+        currentSum += num;
+        result.push(currentSum);
     })
+
     return result
 };
+
+```
+function runningSum (nums) {
+    let newNums = [];
+    let result = [];
+        nums.forEach((num, index)=>{
+            if(index === 0) {
+                newNums.push(num);
+                result.push(num);
+                return
+            }
+            newNums[index] = num;
+            let sum = eval(newNums.join("+"));
+            result[index] = sum;
+        })
+    return result
+};
+```
 </script>
 </html>
