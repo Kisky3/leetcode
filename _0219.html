@@ -18,6 +18,7 @@ const n = 3
  * @return {number}
  */
 function shuffle(nums, n) {
+    //浅拷贝数组
     const copyNums = [...nums];
     const arr1 = nums.splice(0, n);
     const arr2 = copyNums.splice(n, n);
