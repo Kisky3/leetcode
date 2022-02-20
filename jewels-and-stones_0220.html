@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jewels-and-stones</title>
+</head>
+<body>
+    
+</body>
+<script>
+jewels = "z";
+stones = "ZZZZZ";
+
+console.log(numJewelsInStones(jewels,stones));
+
+/**
+ * @param {string} jewels
+ * @param {string} stones
+ * @return {number}
+ */
+function numJewelsInStones(jewels, stones) {
+    let ht = {};
+    let count = 0;
+    const jewelsArr = jewels.split("");
+    const stonesArr = stones.split("");
+    jewelsArr.forEach((jewel)=>{
+        ht[jewel] = ht[jewel]+1 || 1
+    })
+    
+    for(const key in ht) {
+        count = count + ht[key] 
+    }
+    
+    return count+1
+};
+</script>
+</html>
