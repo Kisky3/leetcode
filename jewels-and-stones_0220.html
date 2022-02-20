@@ -11,9 +11,9 @@
 </body>
 <script>
 jewels = "z";
-stones = "ZZZZZ";
+stones = "ZZAabzbbbdddd";
 
-console.log(numJewelsInStones(jewels,stones));
+numJewelsInStones(jewels,stones);
 
 /**
  * @param {string} jewels
@@ -21,19 +21,17 @@ console.log(numJewelsInStones(jewels,stones));
  * @return {number}
  */
 function numJewelsInStones(jewels, stones) {
-    let ht = {};
     let count = 0;
     const jewelsArr = jewels.split("");
-    const stonesArr = stones.split("");
+
     jewelsArr.forEach((jewel)=>{
-        ht[jewel] = ht[jewel]+1 || 1
+        var pos = stones.indexOf(jewel);
+        while(pos > -1) {
+            count++;
+            pos = stones.indexOf(jewel,pos+1);
+        } 
     })
-    
-    for(const key in ht) {
-        count = count + ht[key] 
-    }
-    
-    return count+1
+    return count
 };
 </script>
 </html>
