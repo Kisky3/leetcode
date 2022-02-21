@@ -19,6 +19,7 @@ minimumSum(num);
  * @return {number}
  */
 function minimumSum(num) {
+    // 将数字转换为数组，数组每项从string转为数字，再将数字进行由小到大排序
     let arr = (num + "")
         .split("")
         .map((x) => +x)
