@@ -18,22 +18,40 @@ console.log(findCenter(edges));
  * @param {number[][]} edges
  * @return {number}
  */
+
+
+/**
+ * @param {number[][]} edges
+ * @return {number}
+ */
 function findCenter(edges) {
-    let ht = {}
-    let result = 0;
+    let result = edges[0][0];
     
-    edges.forEach((edge)=>{
-        edge.forEach((num)=>{
-            ht[num] = ht[num] + 1 || 1
-        })
+    edges.forEach((edge, index) => {  
+        if(!edge.includes(edges[0][0])) {
+            result = edges[0][1]
+        }
     })
-    
-    for (let key in ht ) {
-        if(ht[key] === edges.length) result = key
-    }
-    
     return result
 };
+
+// Way2
+// function findCenter(edges) {
+//     let ht = {}
+//     let result = 0;
+    
+//     edges.forEach((edge)=>{
+//         edge.forEach((num)=>{
+//             ht[num] = ht[num] + 1 || 1
+//         })
+//     })
+    
+//     for (let key in ht ) {
+//         if(ht[key] === edges.length) result = key
+//     }
+    
+//     return result
+// };
 
 </script>
 </html>
