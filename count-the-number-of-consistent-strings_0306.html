@@ -20,12 +20,11 @@ const words = ["ad","bd","aaab","baa","badab"];
 function countConsistentStrings(allowed, words) {
     let count = 0;
     words.forEach((word) => {
-        let newWord = word;
-        allowed.split('').forEach((word2)=>{
-            newWord = newWord.replaceAll(word2,'');
+        [...allowed].map((word2)=>{
+            word = word.replaceAll(word2,'');
         })
         
-        if(newWord.length === 0) count++
+        if(word.length === 0) count++
     })
     return count
 };
