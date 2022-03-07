@@ -19,8 +19,7 @@ checkIfPangram(sentence)
  */
 function checkIfPangram(sentence) {
     const arr = sentence.split("").sort();
-    const newArr =  [...new Set(arr)];
-    return newArr.length === 26
+    return [...new Set(arr)].length === 26
 };
 </script>
 </html>
