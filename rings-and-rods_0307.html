@@ -20,12 +20,17 @@ console.log(countPoints(rings));
  */
 function countPoints(rings) {
     let ht = {}
+    let count = 0;
     for(let i = 0; i < rings.length; i++) {
         let index = rings[i+1];
         ht[index] = ht[index] ? ht[index] + rings[i] : rings[i];
         console.log(ht);
         i++
     }
+    for (let key in ht) {
+        if(ht[key].includes('B') && ht[key].includes('G') && ht[key].includes('R')) count++
+    }
+    return count
 };
 </script>
 </html>
