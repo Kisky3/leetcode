@@ -2,7 +2,7 @@
 A Record of my LeetCode practice. It's ok to use javascript to solve them :)
 
 
-## 📖 Learning Materials (Chinese)
+## Learning Materials (Chinese)
 
 ##### Algorithm
 
