@@ -10,24 +10,37 @@
     
 </body>
 <script>
-const words = ["abc","car","ada","racecar","cool"];
+const words = ["aba","car","ada","racecar","cool"];
 console.log(firstPalindrome(words));
-/**
- * @param {string[]} words
- * @return {string}
- */
-function firstPalindrome(words) {
-    let result = [];
-    words.forEach((word) => {
-        if (word === reverseString(word)) {
-            result.push(word);
-        }
-    })
-    return result[0] ? result[0] : ''
-};
 
-function reverseString(str) {
-    return str.split('').reverse().join('');
+// WAY1
+function firstPalindrome(words) {
+    let result = words.find((word) => 
+        isPalindromic(word)
+    );
+    return result ? result : ''
 }
+
+function isPalindromic(word) {
+    return word === word.split("").reverse().join("");
+}
+
+// /** WAY 2
+//  * @param {string[]} words
+//  * @return {string}
+//  */
+// function firstPalindrome(words) {
+//     let result = [];
+//     words.forEach((word) => {
+//         if (word === reverseString(word)) {
+//             result.push(word);
+//         }
+//     })
+//     return result[0] ? result[0] : ''
+// };
+
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+// }
 </script>
 </html>
