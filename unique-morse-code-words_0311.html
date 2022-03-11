@@ -33,5 +33,12 @@ function uniqueMorseRepresentations(words) {
     
     return result.length
 }
+
+// WAY2
+// const uniqueMorseRepresentations = (words) => {
+//     const code = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..'];
+
+//     return new Set(words.map((word) => [...word].map((char) => code[char.charCodeAt() - 97]).join(''))).size;
+// };
 </script>
 </html>
