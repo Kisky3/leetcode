@@ -85,11 +85,11 @@
         //     ).size
         // );
         return new Set(
-            words.map((word) => {
-                return [...word].map((arg) => {
-                    return letters[arg.charCodeAt(0) - index]
-                }).join('')
-            })
+            words.map((word) => 
+                [...word].map((arg) => 
+                    letters[arg.charCodeAt(0) - index]
+                ).join('')
+            )
         ).size
     }
 </script>
