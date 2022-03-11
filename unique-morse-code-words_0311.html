@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unique-morse-code-words</title>
+</head>
+<body>
+    
+</body>
+<script>
+const words = ["gin","zen","gig","msg"];
+/**
+ * @param {string[]} words
+ * @return {number}
+ */
+function uniqueMorseRepresentations(words) {
+    const index = "a".charCodeAt(0);
+    const letters = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
+    
+    let result = [];
+    
+    words.forEach((word)=> {
+        let str = "";
+        let arrWord = word.split("");
+        for(let i = 0; i < word.length; i++) {
+            str += letters[arrWord[i].charCodeAt(0) - index]
+        }
+        if (result.includes(str)) return
+        result.push(str)
+    });
+    
+    return result.length
+}
+</script>
+</html>
