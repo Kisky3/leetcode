@@ -10,11 +10,13 @@
     
 </body>
 <script>
+const nums = [1,2,3];
 /**
  * @param {number[]} nums
  * @return {number[][]}
  */
-var subsets = function(nums) {
+console.log(subsets(nums));
+function subsets(nums) {
 // 初始时，选择列表就是numArr = [1, 2, 3]
 // 初始时，path为[]
 
@@ -28,12 +30,16 @@ var subsets = function(nums) {
     return res;
 };
 
-var backtrack = function(nums, startIndex, path, res){
+function backtrack(nums, startIndex, path, res){
    // 每次一进来，首先把path添加到结果集
     
     // 注意js数组共用内存
     let arr = [...path]
+    console.log("let arr = [...path]");
+    console.log(arr);
     res.push(arr);
+    console.log("res");
+    console.log(res);
 
     // 遍历剩余的可选的选项
     for(let i = startIndex; i < nums.length; i++){
@@ -41,12 +47,16 @@ var backtrack = function(nums, startIndex, path, res){
 
         // 做出选择
         path.push(num);
+        console.log("path.push(num);");
+        console.log(path.push(num));
 
         // 进入下一层
         backtrack(nums, i + 1, path, res);
 
         // 撤销刚才的选择
         path.pop();
+        console.log(" path.pop();");
+        console.log( path.pop());
     }
 }
 
