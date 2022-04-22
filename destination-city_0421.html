@@ -27,5 +27,20 @@
       }
       return result;
     };
+
+    //way 2
+    const destCity = function (paths) {
+      let map = new Map();
+      for (let [s, d] of paths) {
+        map.set(s, d);
+        map.set(d, map.get(d) || null);
+      }
+
+      for (let [s, d] of map) {
+        if (d === null) return s;
+      }
+
+      return null;
+    };
   </script>
 </html>
