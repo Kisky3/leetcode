@@ -13,6 +13,21 @@
      * @param {number} right
      * @return {number[]}
      */
-    const selfDividingNumbers = function (left, right) {};
+    const selfDividingNumbers = function (left, right) {
+      let result = [];
+      for (let i = left; i <= right; i++) {
+        let strNum = i + "";
+        if (strNum !== 0 && strNum.length == 1) {
+          result.push(i);
+        } else {
+          let count = 0;
+          for (let j = 0; j < strNum.length; j++) {
+            if (i % strNum[j] == 0) count++;
+          }
+          if (count == strNum.length) result.push(i);
+        }
+      }
+      return result;
+    };
   </script>
 </html>
