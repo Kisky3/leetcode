@@ -7,5 +7,24 @@
     <title>sum-of-digits-in-base-k</title>
   </head>
   <body></body>
-  <script></script>
+  <script>
+    /**
+     * @param {number} n
+     * @param {number} k
+     * @return {number}
+     */
+    const sumBase = function (n, k) {
+      if (n == k) return 1;
+      let num = convertNum(n, k)
+        .split("")
+        .reduce((a, b) => Number(a) + Number(b));
+      return num;
+    };
+
+    function convertNum(n, k) {
+      const s = n + "";
+      const result = parseInt(s, 10).toString(k);
+      return result;
+    }
+  </script>
 </html>
