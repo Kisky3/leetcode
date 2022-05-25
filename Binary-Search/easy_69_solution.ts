@@ -9,11 +9,11 @@
  * Memory Usage: 40.3 MB, less than 11.32% of JavaScript online submissions for Sqrt(x).
  */
 
- /**
+/**
  * @param {number} x
  * @return {number}
  */
-const mySqrt = x => {
+const mySqrt = (x:number):number => {
   let start = 1;
   let end = x;
   while (start < end) {
