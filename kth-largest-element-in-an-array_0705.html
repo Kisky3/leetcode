@@ -7,5 +7,14 @@
     <title>kth-largest-element-in-an-array</title>
   </head>
   <body></body>
-  <script></script>
+  <script>
+    /**
+     * @param {number[]} nums
+     * @param {number} k
+     * @return {number}
+     */
+    var findKthLargest = function (nums, k) {
+      return nums.sort((a, b) => a - b).splice(nums.length - k, 1);
+    };
+  </script>
 </html>
